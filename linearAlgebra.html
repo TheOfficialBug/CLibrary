@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Code Library - Python & Math Courses for Kids (Grades 1-10) | Online Learning</title>
+
+        <meta name="description" content="Code Library offers online Python and Math courses for kids from Grades 1 to 10. Enroll now for personalized learning with top mentors.">
+        <meta name="keywords" content="Code Library, online courses for kids, Python programming, Math courses, Grades 1-10, personalized learning">
+        <meta name="robots" content="index, follow">
+
+        <link rel="canonical" href="https://codelibrary-edu.com/index.html">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/pricing.css">
+
+        <link
+            rel="icon"
+            href="assets/img/yellow_CLib_Logo.png"
+            type="image/x-icon"
+        />
+
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="index.html" class="nav__logo"><img src="assets/img/yellow_CLib_Logo.png" alt="logo" class="nav-logo" id="logo-image"><h2>.LIBRARY</h2></a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item dropdown">
+                            <span  class="nav__link" onclick="dropDown(event)">Courses<i class='bx bx-chevron-down'></i></span>
+                            <div class="dropdown-content">
+                                <a href="courses.html">Mathematics</a>
+                                <a href="programming.html">Programming</a>
+                            </div>
+                        </li>
+                        <li class="nav__item"><a href="pricingPlans.html" class="nav__link active-link">Pricing</a></li>
+                        <li class="nav__item"><a href="linearAlgebra.html" class="nav__link">Blogs</a></li>
+                        <li class="nav__item"><a href="https://calendar.google.com" class="nav__link" target="_blank">My Calendar</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link" onclick="openForm()">Register Now</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button" onclick="toggleImage()"></i></li>
+                        
+                        <!-- NEW 1 -->
+                        <li class="nav__item icon-cart">
+                            <a href="#" class="nav__link"><i class='bx bxs-cart cart-icon'></i>
+                                <span id="product-count">0</span>
+                            </a>
+                        </li>
+                        <!-- END OF NEW 1 -->
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+<!-- NEW 2 -->
+        <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart">
+                <ul id="cart-list">
+
+                </ul>
+            </div>
+            <div class="btn">
+                <button class="close">CLOSE</button>
+                <button class="checkOut">CHECK OUT</button>
+            </div>
+        </div>
+<!-- END OF NEW 2 -->
+<!-- =========END OF HEADER========== -->
+
+        <div class="blog-content">
+
+            <div class="title-section">
+                <h1>Linear Algebra</h1>
+            </div>
+            <img src="./assets/img/la_banner_image.png" alt="Linear Algebra Banner" class="banner-image">
+
+            <div class="text-block">
+                <p>
+                    Linear algebra is one of the important branches of mathematics. 
+                    Linear algebra is basically the study of vectors and linear functions. 
+                    It is a key concept for almost all areas of mathematics. 
+                    Linear algebra is considered a basic concept in the modern presentation of geometry. 
+                    It is mostly used in Physics and Engineering as it helps to define the basic objects such as planes, 
+                    lines, and rotations of the object. It allows us to model many natural phenomena, and also it has computing efficiency. <br><br>
+                    In this article, you are going to learn about the basic introduction, 
+                    its components, problems, linear equations, and its applications.
+                </p>
+            </div>
+
+            <div class="subtitle-section">
+                <h3>Introduction to Linear Algebra</h3>
+            </div>
+
+            <div class="text-block">
+                <!-- First Paragraph -->
+                <div>
+                    <p>
+                        Linear algebra is the study of linear combinations. It is the study of vector 
+                        spaces, lines, planes, and some mappings that are required to perform 
+                        linear transformations. It includes vectors, matrices, and linear 
+                        functions. It is the study of linear sets of equations and their transformation 
+                        properties.
+                    </p>
+                </div>
+            
+                <!-- Second Section with Equations and Image -->
+                <div class="second-section">
+                    <div class="equation-section">
+                        <strong>Linear Algebra Equations:</strong><br><br>
+                        The general linear equation is represented as:<br>
+                        <span class="equation">a<sub>1</sub>x<sub>1</sub> + a<sub>2</sub>x<sub>2</sub> + ... + a<sub>n</sub>x<sub>n</sub> = b</span><br><br>
+            
+                        Here:<br>
+                        <strong>a</strong> - represents the coefficients<br>
+                        <strong>x</strong> - represents the unknowns<br>
+                        <strong>b</strong> - represents the constant<br><br>
+                    </div>
+                    
+                    <div class="image-section">
+                        <img src="./assets/img/la_img1.png" alt="Linear Algebra Illustration">
+                    </div>
+                </div>
+            
+                <!-- Last Paragraph -->
+                <div>
+                    <p>
+                        There exists a system of linear algebraic equations, which is a set of 
+                        equations. The system of equations can be solved using matrices.
+                        It obeys the linear function such as:<br>
+                        <span class="equation">(x<sub>1</sub>, ..., x<sub>n</sub>) → a<sub>1</sub>x<sub>1</sub> + ... + a<sub>n</sub>x<sub>n</sub></span>
+                    </p>
+                </div>
+            </div>
+
+            <img src="./assets/img/la_img2.png" alt="Linear Algebra Intro Image" class="block-image">
+
+            <div class="subtitle-section">
+                <h3>Vector Spaces</h3>
+            </div>
+
+            <div class="text-block">
+                <p>
+                    As we know that linear algebra deals with the study of vector spaces and
+                    the linear transformations between them. By the definition of a vector, it is a
+                    physical quantity that has both magnitude and direction. A vector space is
+                    defined as the collection of objects called vectors, which may be added
+                    together and multiplied (i.e. scaled) by numbers, called scalars. Generally,
+                    <strong>real numbers</strong> are taken as scalars, but there exist vector spaces with scalar
+                    multiplication by non-real numbers, i.e., complex numbers, or naturally any
+                    field.<br><br>
+            
+                    The operations such as vector addition and scalar multiplication must
+                    satisfy specific requirements, called vector axioms. Generally, the terms
+                    real vector space and complex vector space are used to define that the
+                    scalars are real or complex numbers, respectively.<br><br>
+            
+                    Suppose V be any vector space with elements a, b, c and scalars m, n over
+                    a field F, then the vector axioms are given by:<br><br>
+            
+                    <strong>Commutative of addition:</strong> a + b = b + a<br>
+                    <strong>Associativity of addition:</strong> a + (b + c) = (a + b) + c<br>
+                    <strong>Additive identity:</strong> a + 0 = 0 + a = a, where 0 is an element in V called
+                    the zero vector.<br>
+                    <strong>Additive inverse:</strong> a + (-a) = 0, where a and -a belong to V.
+                </p>
+            </div>
+
+            <img src="./assets/img/la_img3.png" alt="Linear Algebra Intro Image" class="block-image">
+            
+            <div class="text-block">
+                <p>
+                    Other axioms include distributivity of scalar multiplication with respect to
+                    vector addition and field addition, identity element of scalar multiplication,
+                    and so on.<br><br>
+            
+                    For example: <span class="equation">m(a) = ma</span>; <span class="equation">n(a + b) = na + nb</span><br><br>
+            
+                    An element of a specific vector space may have different characteristics.
+                    For example, the elements can be a sequence, a function, a polynomial, or a
+                    matrix. Linear algebra is affected by the properties of such elements that are
+                    common or familiar to all vector spaces.<br><br>
+            
+                    A linear map can be written for two given vector spaces, namely V and W,
+                    over a field F. This is sometimes referred to as a linear transformation or
+                    mapping of vector spaces. Thus, it is given by:<br><br>
+            
+                    <span class="equation">T: V → W</span><br><br>
+            
+                    This allows us to write the addition and scalar multiplication of elements
+                    such as:<br><br>
+            
+                    <span class="equation">T(a + b) = T(a) + T(b)</span><br>
+                    <span class="equation">T(ma) = mT(a)</span>
+                </p>
+            </div>
+            
+            <div class="subtitle-section">
+                <h3>Linear Function</h3>
+            </div>
+
+            <div class="text-block">
+                <!-- Section with Text and Image -->
+                <div class="second-section">
+                    <!-- Left Side: Text Content -->
+                    <div class="equation-section">
+                        <p>
+                            A linear function is an algebraic equation in which each term is either a 
+                            constant or the product of a constant and a single independent variable of 
+                            power 1. In linear algebra, vectors are used when forming linear functions. 
+                            Some examples of vectors can be rephrased in terms of the function of vectors.<br><br>
+            
+                            Mathematically, a linear function is defined as:<br><br>
+            
+                            A function L : R<sup>n</sup> → R<sup>m</sup> is linear if:<br><br>
+            
+                            (i) L(x + y) = L(x) + L(y)<br>
+                            (ii) L(αx) = αL(x)<br><br>
+            
+                            for all x, y ∈ R<sup>n</sup>, α ∈ R.
+                        </p>
+                    </div>
+            
+                    <!-- Right Side: Image -->
+                    <div class="image-section">
+                        <img src="./assets/img/la_linear_functions.png" alt="Linear Algebra Function Image" class="block-image-2">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="subtitle-section">
+                <h3>Linear Algebra Matrix</h3>
+            </div>
+
+            <div class="text-block">
+                <p>
+                    Matrices are linear functions of a certain kind. A matrix is the result of
+                    organizing information related to certain linear functions. Matrices frequently
+                    appear in linear algebra because they are central to understanding its core
+                    concepts.<br><br>
+            
+                    Mathematically, this relation can be defined as follows:<br><br>
+            
+                    A is an m × n matrix, then we get a linear function L : R<sup>n</sup> → R<sup>m</sup> by defining:<br><br>
+                    <span class="equation">L(x) = Ax</span><br>
+                    or<br>
+                    <span class="equation">Ax = B</span><br><br>
+            
+                    Go through the example below to understand this mapping in detail.<br><br>
+            
+                    <strong>Question:</strong><br>
+                    A room contains x bags and y boxes of fruits. Each bag contains 2 apples
+                    and 4 bananas, and each box contains 6 apples and 8 bananas. There are a
+                    total of 20 apples and 28 bananas in the room. Find the value of x and y.<br><br>
+            
+                    <strong>Solution:</strong><br>
+                    Write the simultaneous equations for the given information that satisfies the
+                    conditions:<br><br>
+            
+                    <span class="equation">2x + 6y = 20</span><br>
+                    <span class="equation">4x + 8y = 28</span><br><br>
+                </p>
+            </div>
+
+            <img src="./assets/img/la_matrix.png" alt="Linear Algebra Matrix" class="block-image">
+
+            <div class="subtitle-section">
+                <h3>Numeric Linear Algebra</h3>
+            </div>
+
+            <div class="text-block">
+                <p>
+                    Numerical linear algebra is also known as the applied linear algebra. Applied 
+                    linear algebra deals with the study of how matrix operations can be used to 
+                    create computer algorithms, which helps to solve the problems in 
+                    continuous mathematics with efficiency and accuracy. In numerical linear 
+                    algebra, many matrix decomposition methods are used to find the solutions 
+                    for common linear algebraic problems like least-square optimization, 
+                    locating Eigenvalues, and solving systems of linear equations. Some of the 
+                    matrix decomposition methods in numerical linear algebra include Eigen 
+                    decomposition, Single value decomposition, QR factorization and so on.
+                </p>
+            </div>
+
+            <img src="./assets/img/la_numeric.png" alt="Numeric Linear Algebra" class="block-image-1">
+
+            <div class="subtitle-section">
+                <h3>Linear Algebra Applications</h3>
+            </div>
+
+            <div class="text-block">
+                <div class="first-paragraph">
+                    <p>Here, some of the linear algebra applications are given as:</p><br>
+                    <ul>
+                        <li><strong>Ranking in Search Engines:</strong> One of the most important applications of 
+                            linear algebra is in the creation of Google. The most complicated ranking 
+                            algorithm is created with the help of linear algebra.
+                        </li><br>
+            
+                        <li><strong>Signal Analysis:</strong> It is massively used in encoding, analyzing, and 
+                            manipulating signals that can be either audio, video, or images, etc.
+                        </li><br>
+            
+                        <li><strong>Linear Programming:</strong> Optimization is an important application of linear 
+                            algebra, which is widely used in the field of linear programming.
+                        </li><br>
+            
+                        <li><strong>Error-Correcting Codes:</strong> It is used in coding theory. If encoded data is 
+                            tampered with slightly, linear algebra can help recover it. One such important 
+                            error-correcting code is called Hamming code.
+                        </li><br>
+            
+                        <li><strong>Prediction:</strong> Predictions of some objects can be made using linear models, 
+                            which are developed using linear algebra.
+                        </li><br>
+            
+                        <li><strong>Facial Recognition:</strong> An automated facial recognition technology that uses 
+                            linear algebraic expressions is called principal component analysis.
+                        </li><br>
+            
+                        <li><strong>Graphics:</strong> An important part of graphics is projecting a 3-dimensional 
+                            scene onto a 2-dimensional screen, which is handled only by linear maps explained 
+                            by linear algebra.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+
+
+        </div>
+
+
+
+<!--========== FOOTER ==========-->
+<footer class="footer section bd-container">
+    <div class="footer__container bd-grid">
+        <div class="footer__content">
+            <a href="#" class="footer__logo"><img src="assets/img/yellow_CLib_Logo.png" alt="" class="nav-logo"></a>
+            <span class="footer__description">E-learning Platform</span>
+            <div>
+                <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Services</h3>
+            <ul>
+                <li><a href="#" class="footer__link">About Us</a></li>
+                <!-- <li><a href="#" class="footer__link">Training</a></li> -->
+                <li><a href="courses.html" class="footer__link">View Courses</a></li>
+                <!-- <li><a href="#" class="footer__link">Student Projects</a></li> -->
+                <li class="policy_item"><a href="#" class="nav__link" onclick="openPolicyForm()">Read our Policies</a></li>
+            </ul>
+        </div>
+
+        <!-- <div class="footer__content">
+            <h3 class="footer__title">Information</h3>
+            <ul>
+                <li><a href="#" class="footer__link">Event</a></li>
+                <li><a href="#" class="footer__link">Contact us</a></li>
+                <li><a href="#" class="footer__link">Privacy policy</a></li>
+                <li><a href="#" class="footer__link">Terms of services</a></li>
+            </ul>
+        </div> -->
+
+        <div class="footer__content">
+            <h3 class="footer__title">Contact</h3>
+            <ul>
+                <li>HSR Sector 3</li>
+                <li>Bengaluru</li>
+                <li>Phone Number: 9880305671</li>
+                <li>Email: code-library@outlook.com</li>
+            </ul>
+        </div>
+    </div>
+
+    <p class="footer__copy">&#169; 2024 Code Library Private Limited. All rights reserved.</p>
+</footer>
+
+<!-- pop up policy form -->
+<div class="overlay" id="policyFormGuide"></div>
+
+<div class="policyGuidelines" id="formPolicyContainer">
+    <span class="close-btn" onclick="closePolicyForm()"><i class='bx bx-x' ></i></span>
+    <form id="myForm" action="#" method="#">
+
+        <p>
+            
+            Terms and Conditions
+            <br><br>
+            
+            REFUND POLICY:
+            <br><br>
+
+            1. Eligibility for Refunds:<br>
+               - Parents can request a refund only after commencing the regular classes and within 60 days from the date of enrollment.<br>
+               - Refund requests made after 60 days from the date of enrollment will not be considered.
+               <br> <br>
+            2. Unused Classes:<br>
+               - Unused classes can be converted into credits which can be redeemed later across any course at Code Library.<br>
+               - These credits must be used within Two year from the date of issuance, after which they will expire.
+               <br><br>
+            3. Cash Refunds:<br>
+               - Parents are eligible for a pro-rated refund corresponding to the number of unused classes.<br>
+               - A service fee of $99 will be deducted from the refund amount if a cash refund is requested.
+               <br><br>
+            4. Installment/Subscription Plans:<br>
+               - Parents paying in installments or subscription plans are eligible for a pro-rated refund only in the case of an identified service lapse from Code Library's end.<br>
+               - The service lapse must be reported within 72 hours of its occurrence through our official support email or WhatsApp channel.<br>
+               - If the service lapse is not resolved within 72 hours of reporting, the pro-rated refund will be processed.
+               <br><br>
+            5. Service Lapses:<br>
+               - Service lapses include technical issues, instructor unavailability, or any other issue that prevents the scheduled class from taking place.<br>
+               - The decision on what constitutes a service lapse is at the sole discretion of Code Library.
+               <br><br>
+            6. Refund Processing:<br>
+               - Refunds will be processed within 14 business days from the date of approval.<br>
+               - Refunds will be credited back to the original mode of payment used during enrollment.
+               <br>
+               <br>
+               <br>
+
+
+            CANCELLATION POLICY:
+            <br><br>
+            1. Class Cancellations by Students:<br>
+               - Students can cancel or reschedule a maximum of 6 sessions per 48 sessions.<br>
+               - Cancellations or rescheduling must be done at least 24 hours prior to the scheduled class time.<br>
+               - Failure to cancel or reschedule within this timeframe will result in the session being marked as a "No Show."
+               <br><br>
+            2. No Show Policy:<br>
+               - If a student does not join a class without prior cancellation, it will be treated as a "Student No Show."<br>
+               - "No Show" sessions will be marked as completed and will not be eligible for rescheduling or compensation.
+               <br><br>
+            3. Instructor Cancellations:<br>
+               - In the event of a class cancellation by the instructor, the session will be rescheduled at a mutually convenient time without any penalty to the student.<br>
+               - If rescheduling is not possible, the session will be converted into credits which can be used for future classes.
+               <br><br>
+            4. Extenuating Circumstances:<br>
+               - In case of medical emergencies or other extenuating circumstances, students can appeal for exceptions to the cancellation policy.<br>
+               - Such appeals must be supported by relevant documentation and will be considered on a case-by-case basis.
+               <br><br><br>
+
+
+            PRIVACY POLICY:<br><br>
+             
+            1. Information Collection:<br>
+               - We collect personal information including but not limited to names, contact details, payment information, and usage data to provide and improve our services.<br>
+               <br><br>
+            2. Use of Information:<br>
+               - Personal information is used to facilitate course enrollment, provide customer support, process payments, and communicate with users.<br>
+               - We may use anonymized data for analytical purposes to enhance our services.
+               <br><br>
+            3. Information Sharing:<br>
+               - We do not share personal information with third parties except as necessary to provide our services or comply with legal obligations.<br>
+               - Third parties involved in service delivery (e.g., payment processors) are obligated to maintain the confidentiality of the information.
+               <br><br>
+            4. Data Security:<br>
+               - We implement appropriate technical and organizational measures to protect personal information against unauthorized access, disclosure, alteration, or destruction.
+               <br><br>
+            5. User Rights:<br>
+               - Users have the right to access, correct, or delete their personal information held by us.<br>
+               - Requests can be made via our support email and will be addressed within a reasonable timeframe.
+               <br><br>
+            6. Policy Updates:<br>
+               - Our privacy policy may be updated from time to time. Users will be notified of any significant changes via email or through our website.<br>
+               <br><br><br>
+               
+            Contact Us:<br>
+            If you have any queries, concerns, or need assistance, please contact us:<br>
+             
+            - WhatsApp: +91-9880305671<br>
+            - Email: Code-Library@outlook.com
+            <br><br>
+            Sincerely,  <br>
+            Code Library Team
+        </p>
+
+        <div class="button-box">
+            <button type="submit" value="Submit" class="button1" onclick="closePolicyForm()">I AGREE</button>
+        </div>
+    </form>
+</div>
+
+<!--========== SCROLL REVEAL ==========-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--========== MAIN JS ==========-->
+<script src="assets/js/index.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/currency.js"></script>
+</body>
+</html>
