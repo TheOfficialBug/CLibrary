@@ -1283,8 +1283,8 @@ i.bx.bx-x::before{
   margin: 3px auto; 
   width: 100%; 
   height: auto;
-  max-height: 25vh;
-  object-fit: contain; 
+  max-height: 37vh;
+  object-fit: flex; 
 }
 
 .block-image {
@@ -1366,4 +1366,75 @@ i.bx.bx-x::before{
   width: 75%; 
   height: auto; 
   border-radius: 5px; 
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Container for the section and cards */
+.blog-container {
+  width: 77%; 
+  margin: 0 auto; 
+  padding-bottom: 40px;
+}
+
+/* Flexbox layout for the cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensures the cards wrap to the next line if necessary */
+  gap: 30px; /* Space between cards */
+  justify-content: space-between; /* Evenly space the cards */
+}
+
+/* Individual card styling */
+.card {
+  flex: 1 1 calc(33.33% - 20px); /* Responsive size: 3 cards per row with gap */
+  background-color: #e1f4f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%; /* Make the image responsive */
+  height: 150px;
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 1.5em;
+  margin-top: 15px;
+  color: #023d4a;
+}
+
+.card p {
+  font-size: 0.9em;
+  color: #047f9b;
+}
+
+/* Responsive behavior: For screens smaller than 768px, stack the cards */
+@media (max-width: 768px) {
+  .card {
+      flex: 1 1 100%; /* Stack cards one by one */
+  }
+}
+
+/* For screens between 768px and 1200px, display 2 cards per row */
+@media (max-width: 1200px) {
+  .card {
+      flex: 1 1 calc(50% - 20px); /* 2 cards per row */
+  }
 }
