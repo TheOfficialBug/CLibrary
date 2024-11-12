@@ -132,7 +132,13 @@ img{
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1);
 }
-
+.sectionsubheading{
+  color: blue;
+  font-size: xx-large;
+  font-weight:900;
+  font-family:'Montserrat';
+  text-align: left;
+}
 /*========== LAYOUT ==========*/
 .bd-container{
   max-width: 960px;
