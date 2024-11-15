@@ -199,9 +199,42 @@
 <!-- pop up policy form -->
 <div class="overlay" id="policyFormGuide"></div>
 
-<div class="policyGuidelines" id="formPolicyContainer">
-    <span class="close-btn" onclick="closePolicyForm()"><i class='bx bx-x' ></i></span>
-    <form id="myForm" action="#" method="#">
+<!-- pop up form -->
+            <div class="overlay" id="overlay"></div>
+
+            <div class="form-container" id="formContainer">
+                <span class="close-btn" onclick="closeForm()"><i class='bx bx-x' ></i></span>
+                <form id="myForm" action="https://formspree.io/f/xkndpvak" method="post">
+                    <label for="parentName">Parent Name:</label>
+                    <input type="text" id="parentName" name="parentName" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            
+                    <label for="studentName">Student Name:</label>
+                    <input type="text" id="studentName" name="studentName" required>
+            
+                    <label for="interestedCourse">Interested Course:</label>
+                    <select id="interestedCourse" name="interestedCourse" required>
+                        <option value="None" selected></option>
+                        <option value="Mathematics">Mathematics</option>
+                        <option value="Science">Science</option>
+                        <option value="History">Biology</option>
+                        <option value="Language">Python Programming</option>
+                    </select>
+            
+                    <label for="studentGrade">Student Grade:</label>
+                    <input type="text" id="studentGrade" name="studentGrade" required>
+            
+                    <div class="button-box">
+                        <button type="submit" value="Submit" class="button1">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+
 
         <p>
             
