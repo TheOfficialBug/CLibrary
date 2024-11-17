@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Code Library - Python & Math Courses for Kids (Grades 1-10) | Online Learning</title>
+
+        <meta name="description" content="Code Library offers online Python and Math courses for kids from Grades 1 to 10. Enroll now for personalized learning with top mentors.">
+        <meta name="keywords" content="Code Library, online courses for kids, Python programming, Math courses, Grades 1-10, personalized learning">
+        <meta name="robots" content="index, follow">
+
+        <link rel="canonical" href="https://codelibrary-edu.com/index.html">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/pricing.css">
+
+        <link
+            rel="icon"
+            href="assets/img/yellow_CLib_Logo.png"
+            type="image/x-icon"
+        />
+
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="index.html" class="nav__logo"><img src="assets/img/yellow_CLib_Logo.png" alt="logo" class="nav-logo" id="logo-image"><h2>.LIBRARY</h2></a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item dropdown">
+                            <span  class="nav__link" onclick="dropDown(event)">Courses<i class='bx bx-chevron-down'></i></span>
+                            <div class="dropdown-content">
+                                <a href="courses.html">Mathematics</a>
+                                <a href="programming.html">Programming</a>
+                            </div>
+                        </li>
+                        <li class="nav__item"><a href="pricingPlans.html" class="nav__link active-link">Pricing</a></li>
+                        <li class="nav__item"><a href="blogLanding.html" class="nav__link">Blogs</a></li>
+                        <li class="nav__item"><a href="https://calendar.google.com" class="nav__link" target="_blank">My Calendar</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link" onclick="openForm()">Register Now</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button" onclick="toggleImage()"></i></li>
+                        
+                        <!-- NEW 1 -->
+                        <li class="nav__item icon-cart">
+                            <a href="#" class="nav__link"><i class='bx bxs-cart cart-icon'></i>
+                                <span id="product-count">0</span>
+                            </a>
+                        </li>
+                        <!-- END OF NEW 1 -->
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+<!-- NEW 2 -->
+        <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart">
+                <ul id="cart-list">
+
+                </ul>
+            </div>
+            <div class="btn">
+                <button class="close">CLOSE</button>
+                <button class="checkOut">CHECK OUT</button>
+            </div>
+        </div>
+<!-- END OF NEW 2 -->
+<!-- =========END OF HEADER========== -->
+
+<div class="blog-content">
+
+    <div class="title-section">
+        <h3>Decimal</h3>
+    </div>
+
+    <img src="assets/img/Logo.png" alt="Blog Banner" class="banner-image">
+    
+    <div class="text-block">
+            <p>Writing 3/8 as a decimal using division method:<br><br>
+
+                To convert any fraction to decimal form, we just need to divide its numerator by denominator.<br><br>
+                
+                Here, the fraction is 3/8 which means we need to perform 3 ÷ 8.<br><br>
+                
+                This gives the answer as 0.375. So, 3/8 as a decimal is 0.375<br><br>
+                
+                Thus, 3/8 as a decimal is 0.375
+            </p>
+            <img src="assets/img/38 1.png" alt="decimal" >
+    </div>
+</div>
+
+
+<!--========== FOOTER ==========-->
+<footer class="footer section bd-container">
+    <div class="footer__container bd-grid">
+        <div class="footer__content">
+            <a href="#" class="footer__logo"><img src="assets/img/yellow_CLib_Logo.png" alt="" class="nav-logo"></a>
+            <span class="footer__description">E-learning Platform</span>
+            <div>
+                <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Services</h3>
+            <ul>
+                <li><a href="#" class="footer__link">About Us</a></li>
+                <!-- <li><a href="#" class="footer__link">Training</a></li> -->
+                <li><a href="courses.html" class="footer__link">View Courses</a></li>
+                <!-- <li><a href="#" class="footer__link">Student Projects</a></li> -->
+                <li class="policy_item"><a href="#" class="nav__link" onclick="openPolicyForm()">Read our Policies</a></li>
+            </ul>
+        </div>
+
+        <!-- <div class="footer__content">
+            <h3 class="footer__title">Information</h3>
+            <ul>
+                <li><a href="#" class="footer__link">Event</a></li>
+                <li><a href="#" class="footer__link">Contact us</a></li>
+                <li><a href="#" class="footer__link">Privacy policy</a></li>
+                <li><a href="#" class="footer__link">Terms of services</a></li>
+            </ul>
+        </div> -->
+
+        <div class="footer__content">
+            <h3 class="footer__title">Contact</h3>
+            <ul>
+                <li>#14, Balaji layout (behind SVIT boys hostel),</li>
+                <li>Rajankunte,</li>
+                <li>Bengaluru North - 560064</li>
+                <li>Phone Number: 9880305671</li>
+                <li>Email: code-library@outlook.com</li>
+            </ul>
+        </div>
+        <div class="footer__content">
+            <h3 class="footer__title">Administration Office</h3>
+            <ul>
+                <li>Cocktail Premium Coworking </li>
+                <li>652, 22nd Cross, 23rd Main Rd,</li>
+                <li>Parangi Palaya, Sector 2, HSR Layout,</li>
+                <li>Bengaluru, Karnataka 560102</li>
+              
+            </ul>
+        </div>
+    </div>
+
+    <p class="footer__copy">&#169; 2024 Code Library Private Limited. All rights reserved.</p>
+</footer>
+
+<!-- pop up policy form -->
+<div class="overlay" id="policyFormGuide"></div>
+
+<div class="policyGuidelines" id="formPolicyContainer">
+    <span class="close-btn" onclick="closePolicyForm()"><i class='bx bx-x' ></i></span>
+    <form id="myForm" action="#" method="#">
+
+        <p>
+            
+            Terms and Conditions
+            <br><br>
+            
+            REFUND POLICY:
+            <br><br>
+
+            1. Eligibility for Refunds:<br>
+               - Parents can request a refund only after commencing the regular classes and within 60 days from the date of enrollment.<br>
+               - Refund requests made after 60 days from the date of enrollment will not be considered.
+               <br> <br>
+            2. Unused Classes:<br>
+               - Unused classes can be converted into credits which can be redeemed later across any course at Code Library.<br>
+               - These credits must be used within Two year from the date of issuance, after which they will expire.
+               <br><br>
+            3. Cash Refunds:<br>
+               - Parents are eligible for a pro-rated refund corresponding to the number of unused classes.<br>
+               - A service fee of $99 will be deducted from the refund amount if a cash refund is requested.
+               <br><br>
+            4. Installment/Subscription Plans:<br>
+               - Parents paying in installments or subscription plans are eligible for a pro-rated refund only in the case of an identified service lapse from Code Library's end.<br>
+               - The service lapse must be reported within 72 hours of its occurrence through our official support email or WhatsApp channel.<br>
+               - If the service lapse is not resolved within 72 hours of reporting, the pro-rated refund will be processed.
+               <br><br>
+            5. Service Lapses:<br>
+               - Service lapses include technical issues, instructor unavailability, or any other issue that prevents the scheduled class from taking place.<br>
+               - The decision on what constitutes a service lapse is at the sole discretion of Code Library.
+               <br><br>
+            6. Refund Processing:<br>
+               - Refunds will be processed within 14 business days from the date of approval.<br>
+               - Refunds will be credited back to the original mode of payment used during enrollment.
+               <br>
+               <br>
+               <br>
+
+
+            CANCELLATION POLICY:
+            <br><br>
+            1. Class Cancellations by Students:<br>
+               - Students can cancel or reschedule a maximum of 6 sessions per 48 sessions.<br>
+               - Cancellations or rescheduling must be done at least 24 hours prior to the scheduled class time.<br>
+               - Failure to cancel or reschedule within this timeframe will result in the session being marked as a "No Show."
+               <br><br>
+            2. No Show Policy:<br>
+               - If a student does not join a class without prior cancellation, it will be treated as a "Student No Show."<br>
+               - "No Show" sessions will be marked as completed and will not be eligible for rescheduling or compensation.
+               <br><br>
+            3. Instructor Cancellations:<br>
+               - In the event of a class cancellation by the instructor, the session will be rescheduled at a mutually convenient time without any penalty to the student.<br>
+               - If rescheduling is not possible, the session will be converted into credits which can be used for future classes.
+               <br><br>
+            4. Extenuating Circumstances:<br>
+               - In case of medical emergencies or other extenuating circumstances, students can appeal for exceptions to the cancellation policy.<br>
+               - Such appeals must be supported by relevant documentation and will be considered on a case-by-case basis.
+               <br><br><br>
+
+
+            PRIVACY POLICY:<br><br>
+             
+            1. Information Collection:<br>
+               - We collect personal information including but not limited to names, contact details, payment information, and usage data to provide and improve our services.<br>
+               <br><br>
+            2. Use of Information:<br>
+               - Personal information is used to facilitate course enrollment, provide customer support, process payments, and communicate with users.<br>
+               - We may use anonymized data for analytical purposes to enhance our services.
+               <br><br>
+            3. Information Sharing:<br>
+               - We do not share personal information with third parties except as necessary to provide our services or comply with legal obligations.<br>
+               - Third parties involved in service delivery (e.g., payment processors) are obligated to maintain the confidentiality of the information.
+               <br><br>
+            4. Data Security:<br>
+               - We implement appropriate technical and organizational measures to protect personal information against unauthorized access, disclosure, alteration, or destruction.
+               <br><br>
+            5. User Rights:<br>
+               - Users have the right to access, correct, or delete their personal information held by us.<br>
+               - Requests can be made via our support email and will be addressed within a reasonable timeframe.
+               <br><br>
+            6. Policy Updates:<br>
+               - Our privacy policy may be updated from time to time. Users will be notified of any significant changes via email or through our website.<br>
+               <br><br><br>
+               
+            Contact Us:<br>
+            If you have any queries, concerns, or need assistance, please contact us:<br>
+             
+            - WhatsApp: +91-9880305671<br>
+            - Email: Code-Library@outlook.com
+            <br><br>
+            Sincerely,  <br>
+            Code Library Team
+        </p>
+
+        <div class="button-box">
+            <button type="submit" value="Submit" class="button1" onclick="closePolicyForm()">I AGREE</button>
+        </div>
+    </form>
+</div>
+
+<!--========== SCROLL REVEAL ==========-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<!--========== MAIN JS ==========-->
+<script src="assets/js/index.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/currency.js"></script>
+</body>
+</html>
