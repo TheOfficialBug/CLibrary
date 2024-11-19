@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Code Library - Python & Math Courses for Kids (Grades 1-10) | Online Learning</title>
+
+        <meta name="description" content="Code Library offers online Python and Math courses for kids from Grades 1 to 10. Enroll now for personalized learning with top mentors.">
+        <meta name="keywords" content="Code Library, online courses for kids, Python programming, Math courses, Grades 1-10, personalized learning">
+        <meta name="robots" content="index, follow">
+
+        <link rel="canonical" href="https://codelibrary-edu.com/index.html">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/pricing.css">
+
+        <link
+            rel="icon"
+            href="assets/img/yellow_CLib_Logo.png"
+            type="image/x-icon"
+        />
+
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="index.html" class="nav__logo"><img src="assets/img/yellow_CLib_Logo.png" alt="logo" class="nav-logo" id="logo-image"><h2>.LIBRARY</h2></a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item dropdown">
+                            <span  class="nav__link" onclick="dropDown(event)">Courses<i class='bx bx-chevron-down'></i></span>
+                            <div class="dropdown-content">
+                                <a href="courses.html">Mathematics</a>
+                                <a href="programming.html">Programming</a>
+                            </div>
+                        </li>
+                        <li class="nav__item"><a href="pricingPlans.html" class="nav__link active-link">Pricing</a></li>
+                        <li class="nav__item"><a href="blogLanding.html" class="nav__link">Blogs</a></li>
+                        <li class="nav__item"><a href="https://calendar.google.com" class="nav__link" target="_blank">My Calendar</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link" onclick="openForm()">Register Now</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button" onclick="toggleImage()"></i></li>
+                        
+                        <!-- NEW 1 -->
+                        <li class="nav__item icon-cart">
+                            <a href="#" class="nav__link"><i class='bx bxs-cart cart-icon'></i>
+                                <span id="product-count">0</span>
+                            </a>
+                        </li>
+                        <!-- END OF NEW 1 -->
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+<!-- NEW 2 -->
+        <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart">
+                <ul id="cart-list">
+
+                </ul>
+            </div>
+            <div class="btn">
+                <button class="close">CLOSE</button>
+                <button class="checkOut">CHECK OUT</button>
+            </div>
+        </div>
+<!-- END OF NEW 2 -->
+<!-- =========END OF HEADER========== -->
+
+<div class="blog-content">
+
+    <div class="title-section">
+        <h3>ALGEBRA : Exponential Functions</h3>
+    </div>
+
+    <img src="assets/img/Logo.png" alt="Blog Banner" class="banner-image">
+    
+    <div class="text-block">
+            <p>An exponential function is a mathematical function, which is used in many real-world 
+                situations. It is mainly used to find the exponential decay or exponential growth or 
+                to compute investments, model populations and so on. In this article, you will learn 
+                about exponential function formulas, rules, properties, graphs, derivatives, exponential series and examples
+            </p>
+    </div>
+
+    <div class="subtitle-section">
+        <h3>What is Exponential Function?</h3>
+    </div>
+    <div class="text-block">
+        <p>Exponential function, as its name suggests, involves exponents. But note that, an exponential
+             function has a constant as its base and a variable as its exponent but not the other way round
+              (if a function has a variable as the base and a constant as the exponent then it is a power 
+              function but not an exponential function). An exponential function can be in one of the following forms.
+        </p>
+    </div>
+
+    <div class="sectionsubheading">
+        <p style="text-align: center;"> Exponential Function Definition:</p>
+    </div>
+    <div class="text-block">
+        <p>
+            In mathematics, an exponential function is a function of form f (x) = ax, where “x” is a variable
+             and “a” is a constant which is called the base of the function and it should be greater than 0.
+        </p>
+        <img src="assets/img/paint4 1.png" alt="ef" >
+    </div>
+
+    <div class="sectionsubheading">
+        <p style="text-align: center;">Exponential Function Examples:</p><br>
+    </div>
+    <div class="text-block">
+        <div class="first-paragraph">
+        <p>Here are some examples of exponential function.
+            <ul>
+                <li>
+                    f(x) = 2^x
+                </li>
+                <li>
+                    f(x) = (1/2)^x
+                </li>
+                <li>
+                    f(x) = 3e^2x
+                </li>
+                <li>
+                    f(x) = 4 (3)^-0.5x
+                </li>
+            </ul>
+        </p>
+        </div>
+    </div>
+
+    <div class="sectionsubheading">
+        <p style="text-align: center;">Exponential Function Formula:</p><br>
+    </div>
+    <div class="text-block">
+        <p>An exponential function is defined by the formula f(x) = ax, where the input variable x 
+            occurs as an exponent. The exponential curve depends on the exponential function and it depends on the value of the x.
+        </p><br>
+        <p>
+            The exponential function is an important mathematical function which is of the form.
+        </p><br>
+        <p><strong>f(x) = ax</strong></p><br>
+        <p>
+            Where a>0 and a is not equal to 1.<br><br>
+
+x is any real number.<br><br>
+ 
+If the variable is negative, the function is undefined for -1 < x < 1.<br><br>
+
+Here,<br>
+
+“x” is a variable<br>
+
+“a” is a constant, which is the base of the function.<br>
+
+An exponential curve grows, or decay depends on the exponential function. Any quantity that 
+grows or decays by a fixed per cent at regular intervals should possess either exponential growth or exponential decay.
+
+        </p><br>
+        <p>
+            <strong>Exponential Growth</strong>
+        </p><br>
+        <p>
+            In Exponential Growth, the quantity increases very slowly at first, and then rapidly. 
+            The rate of change increases over time. The rate of growth becomes faster as time passes. 
+            The rapid growth is meant to be an “exponential increase”. The formula to define the exponential growth is:<br><br>
+
+                                         <strong>y = a ( 1+ r )x</strong><br>
+Where r is the growth percentage.
+        </p><br>
+        <p>
+            <strong>Exponential Decay</strong>
+        </p><br>
+        <p>In Exponential Decay, the quantity decreases very rapidly at first, and then slowly. The rate 
+            of change decreases over time. The rate of change becomes slower as time passes. The rapid 
+            growth meant to be an “exponential decrease”. The formula to define the exponential growth is:</p><br>
+            <p>
+                <strong>y = a ( 1- r )x</strong><br>
+                Where r is the decay percentage.
+            </p><br>
+    </div>
+
+    <div class="sectionsubheading">
+        <p style="text-align: center;">Exponential Function Graph:</p><br>
+    </div>
+    <div class="text-block">
+        <div class="first-paragraph">
+        <p>The following figure represents the graph of exponents of x. It can be seen that as 
+            the exponent increases, the curves get steeper and the rate of growth increases respectively. 
+            Thus, for x > 1, the value of y = fn(x) increases for increasing values of (n).
+            </p>
+            <img src="assets/img/paint5 1.png" alt="ef" >
+            <p>
+                From the above, it can be seen that the nature of polynomial functions is dependent on their degree.
+                 The higher the degree of any polynomial function, the higher its growth. A function which grows 
+                 faster than a polynomial function is y = f(x) = ax, where a>1. Thus, for any of the positive integers
+                  n the function f (x) is said to grow faster than that of fn(x).
+            </p><br>
+            <p>
+                Thus, the exponential function having base greater than 1, i.e., a > 1 is defined as y = f(x) = ax. 
+                The domain of exponential function will be the set of entire real numbers R and the range are said 
+                to be the set of all the positive real numbers.
+            </p><br>
+            <p>
+                It must be noted that the exponential function is increasing and the point (0, 1) always lies on the 
+                graph of an exponential function. Also, it is very close to zero if the value of x is mostly negative.
+            </p><br>
+            <p>
+                Exponential function having base 10 is known as a common exponential function. Consider the following series:
+            </p>
+            <img src="assets/img/Exponential Function Graph 1.png" alt="ef" >
+            <p>
+                The value of this series lies between 2 & 3. It is represented by e. Keeping e as the base of the function, 
+                we get y = ex, which is a very important function in mathematics known as a natural exponential function.
+            </p><br>
+            <p>
+                For a > 1, the logarithm of b to base a is x if ax = b. Thus, loga b = x if ax = b.
+                 This function is known as logarithmic function.
+            </p>
+            <img src="assets/img/3 61.png" alt="ef" >
+            <p>
+                For base a = 10, this function is known as a common logarithm and for the base a = e, it is known as a natural 
+                logarithm denoted by ln x. Following are some of the important observations regarding 
+                logarithmic functions which have a base a>1.<br>
+                <ul>
+                    <li>
+                        The domain of log function consists of positive real numbers only, as we cannot 
+                        interpret the meaning of log functions for negative values.
+                    </li><br>
+                    <li>
+                        For the log function, though the domain is only the set of positive real numbers, the 
+                        range is a set of all real values, i.e. R
+                    </li><br>
+                    <li>
+                        When we plot the graph of log functions and move from left to right, the functions show increasing behaviour.
+                    </li><br>
+                    <li>
+                        The graph of log function never cuts the x-axis or y-axis, though it seems to tend toward them.
+                    </li>
+                </ul>
+
+            </p>
+            <img src="assets/img/Exponential-Series 1.png" alt="ef" >
+            <p>
+                <ul>
+                    <li>
+                        Logap = α, logbp = β and logba = µ, then aα = p, bβ = p and bµ = a
+                    </li><br>
+                    <li>
+                        Logbpq = Logbp + Logbq
+                    </li><br>
+                    <li>
+                        Logbpy = ylogbp
+                    </li><br>
+                    <li>
+                        Logb (p/q) = logbp – logbq
+                    </li>
+
+                </ul>
+            </p><br>
+        </div>
+    </div>
+    <div class="sectionsubheading">
+        <p style="text-align: center;">Exponential Function Graph:</p><br>
+    </div>
+    <div class="text-block">
+        <div class="first-paragraph">
+            <p>
+                <ul>
+                    <li>
+                        Let us now focus on the derivative of exponential functions.
+                    </li><br>
+                    <li>
+                        The derivative of ex with respect to x is ex, i.e. d(ex)/dx = ex
+                    </li><br>
+                    <li>
+                        It is noted that the exponential function f(x) =ex  has a special 
+                        property. It means that the derivative of the function is the function itself.
+                    </li><br>
+                    <li>
+                        (i.e) f ‘(x) = ex = f(x)
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <div class="sectionsubheading">
+        <p style="text-align: center;">Exponential Series:</p><br>
+    </div>
+    <div class="text-block">
+        <p>
+            The exponential series are given below.
+        </p>
+        <img src="assets/img/Exponential-Function-Graph-8 1.png" alt="ef" >
+    </div>
+
+    <div class="sectionsubheading">
+        <p style="text-align: center;">Exponential Function Properties:</p><br>
+    </div>
+    <div class="text-block">
+        <div class="first-paragraph">
+        <p>The exponential graph of a function represents the exponential function properties.</p>
+        <p>Let us consider the exponential function, y = 2x</p>
+        <p>The graph of function y = 2x is shown below.</p>
+        <img src="assets/img/1 2.png" alt="ef" >
+        <p>
+            <strong>Exponential Function Graph for y = 2x</strong>
+        </p><br>
+        <p>
+            The properties of the exponential function graph when the base is greater than 1 are given below.
+        </p>
+        <p>
+            <ul>
+                <li>
+                    The graph passes through the point (0,1).
+                </li>
+                <li>
+                    The domain is all real numbers
+                </li>
+                <li>
+                    The range is y>0
+                </li>
+                <li>
+                    The graph is increasing
+                </li>
+                <li>
+                    The graph is asymptotic to the x-axis as x approaches negative infinity
+                </li>
+                <li>
+                    The graph increases without bound as x approaches positive infinity
+                </li>
+                <li>
+                    The graph is continuous
+                </li>
+                <li>
+                    The graph is smooth
+                </li>
+            </ul>
+        </p>
+        <img src="C:\Users\kiran\OneDrive\Desktop\CLibrary-main\CLibrary-main\assets\img\ef.png" alt="ef" >
+        <p>
+            <strong>Exponential Function Graph y=2-x </strong>
+        </p><br>
+        <p>
+            The graph of function y=2-x is shown above. The properties of the exponential 
+            function and its graph when the base is between 0 and 1 are given.
+            <ul>
+                <li>
+                    The line passes through the point (0,1)
+                </li>
+                <li>The domain includes all real numbers</li>
+                <li>
+                    The range is of y>0
+                </li>
+                <li>It forms a decreasing graph</li>
+                <li>The line in the graph above is asymptotic to the x-axis as x approaches positive infinity</li>
+                <li>The line increases without bound as x approaches negative infinity</li>
+                <li>It is a continuous graph</li>
+                <li>It forms a smooth graph</li>
+            </ul>
+        </p><br>
+        <p>
+            <strong>Exponential Function Rules</strong><br><br>
+            Some important exponential rules are given below:<br><br>
+            If a>0, and  b>0, the following hold true for all the real numbers x and y:<br>
+            <ul>
+                <li>ax ay = ax+y</li>
+                <li>ax/ay = ax-y</li>
+                <li>(ax)y = axy</li>
+                <li>axbx=(ab)x</li>
+                <li>(a/b)x= ax/bx</li>
+                <li>a0=1</li>
+                <li>a-x= 1/ ax</li>
+            </ul>
+        </p><br>
+         <p>
+            <strong>Exponential Functions Examples</strong><br><br>
+            The examples of exponential functions are:<br><br>
+            <ul>
+                <li>f(x) = 2x</li>
+                <li>f(x) = 1/ 2x = 2-x</li>
+                <li>f(x) = 2x+3</li>
+                <li>f(x) = 0.5x</li>
+            </ul>
+
+         </p>
+
+
+
+
+
+</div>
+
+<!--========== FOOTER ==========-->
+<footer class="footer section bd-container">
+    <div class="footer__container bd-grid">
+        <div class="footer__content">
+            <a href="#" class="footer__logo"><img src="assets/img/yellow_CLib_Logo.png" alt="" class="nav-logo"></a>
+            <span class="footer__description">E-learning Platform</span>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=61566995138592&mibextid=ZbWKwL" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/codelibrary_edu/profilecard/?igsh=MTY4ODRsZGI2b3dqdQ==" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                <a href="https://x.com/CodeLibrary_" class="footer__social"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Services</h3>
+            <ul>
+                <li><a href="#" class="footer__link">About Us</a></li>
+                <!-- <li><a href="#" class="footer__link">Training</a></li> -->
+                <li><a href="courses.html" class="footer__link">View Courses</a></li>
+                <!-- <li><a href="#" class="footer__link">Student Projects</a></li> -->
+                <li class="policy_item"><a href="#" class="nav__link" onclick="openPolicyForm()">Read our Policies</a></li>
+            </ul>
+        </div>
+
+        <!-- <div class="footer__content">
+            <h3 class="footer__title">Information</h3>
+            <ul>
+                <li><a href="#" class="footer__link">Event</a></li>
+                <li><a href="#" class="footer__link">Contact us</a></li>
+                <li><a href="#" class="footer__link">Privacy policy</a></li>
+                <li><a href="#" class="footer__link">Terms of services</a></li>
+            </ul>
+        </div> -->
+
+        <div class="footer__content">
+            <h3 class="footer__title">Contact</h3>
+            <ul>
+                <li>#14, Balaji layout (behind SVIT boys hostel),</li>
+                <li>Rajankunte,</li>
+                <li>Bengaluru North - 560064</li>
+                <li>Phone Number: 9880305671</li>
+                <li><a href="mailto:code-library@outlook.com">mail: code-library@outlook.com</a></li>
+            </ul>
+        </div>
+    </div><br>
+
+                <div class="footer__content">
+            <h3 class="footer__title">Administration Office</h3>
+            <ul>
+                <li>Cocktail Premium Coworking </li>
+                <li>652, 22nd Cross, 23rd Main Rd,</li>
+                <li>Parangi Palaya, Sector 2, HSR Layout,</li>
+                <li>Bengaluru, Karnataka 560102</li>
+              
+            </ul>
+        </div>
+    </div>
+    <p class="footer__copy">&#169; 2024 Code Library Private Limited. All rights reserved.</p>
+</footer>
+
+<!-- pop up policy form -->
+<div class="overlay" id="policyFormGuide"></div>
+
+<div class="policyGuidelines" id="formPolicyContainer">
+    <span class="close-btn" onclick="closePolicyForm()"><i class='bx bx-x' ></i></span>
+    <form id="myForm" action="#" method="#">
+
+        <p>
+            
+            Terms and Conditions
+            <br><br>
+            
+            REFUND POLICY:
+            <br><br>
+
+            1. Eligibility for Refunds:<br>
+               - Parents can request a refund only after commencing the regular classes and within 60 days from the date of enrollment.<br>
+               - Refund requests made after 60 days from the date of enrollment will not be considered.
+               <br> <br>
+            2. Unused Classes:<br>
+               - Unused classes can be converted into credits which can be redeemed later across any course at Code Library.<br>
+               - These credits must be used within Two year from the date of issuance, after which they will expire.
+               <br><br>
+            3. Cash Refunds:<br>
+               - Parents are eligible for a pro-rated refund corresponding to the number of unused classes.<br>
+               - A service fee of $99 will be deducted from the refund amount if a cash refund is requested.
+               <br><br>
+            4. Installment/Subscription Plans:<br>
+               - Parents paying in installments or subscription plans are eligible for a pro-rated refund only in the case of an identified service lapse from Code Library's end.<br>
+               - The service lapse must be reported within 72 hours of its occurrence through our official support email or WhatsApp channel.<br>
+               - If the service lapse is not resolved within 72 hours of reporting, the pro-rated refund will be processed.
+               <br><br>
+            5. Service Lapses:<br>
+               - Service lapses include technical issues, instructor unavailability, or any other issue that prevents the scheduled class from taking place.<br>
+               - The decision on what constitutes a service lapse is at the sole discretion of Code Library.
+               <br><br>
+            6. Refund Processing:<br>
+               - Refunds will be processed within 14 business days from the date of approval.<br>
+               - Refunds will be credited back to the original mode of payment used during enrollment.
+               <br>
+               <br>
+               <br>
+
+
+            CANCELLATION POLICY:
+            <br><br>
+            1. Class Cancellations by Students:<br>
+               - Students can cancel or reschedule a maximum of 6 sessions per 48 sessions.<br>
+               - Cancellations or rescheduling must be done at least 24 hours prior to the scheduled class time.<br>
+               - Failure to cancel or reschedule within this timeframe will result in the session being marked as a "No Show."
+               <br><br>
+            2. No Show Policy:<br>
+               - If a student does not join a class without prior cancellation, it will be treated as a "Student No Show."<br>
+               - "No Show" sessions will be marked as completed and will not be eligible for rescheduling or compensation.
+               <br><br>
+            3. Instructor Cancellations:<br>
+               - In the event of a class cancellation by the instructor, the session will be rescheduled at a mutually convenient time without any penalty to the student.<br>
+               - If rescheduling is not possible, the session will be converted into credits which can be used for future classes.
+               <br><br>
+            4. Extenuating Circumstances:<br>
+               - In case of medical emergencies or other extenuating circumstances, students can appeal for exceptions to the cancellation policy.<br>
+               - Such appeals must be supported by relevant documentation and will be considered on a case-by-case basis.
+               <br><br><br>
+
+
+            PRIVACY POLICY:<br><br>
+             
+            1. Information Collection:<br>
+               - We collect personal information including but not limited to names, contact details, payment information, and usage data to provide and improve our services.<br>
+               <br><br>
+            2. Use of Information:<br>
+               - Personal information is used to facilitate course enrollment, provide customer support, process payments, and communicate with users.<br>
+               - We may use anonymized data for analytical purposes to enhance our services.
+               <br><br>
+            3. Information Sharing:<br>
+               - We do not share personal information with third parties except as necessary to provide our services or comply with legal obligations.<br>
+               - Third parties involved in service delivery (e.g., payment processors) are obligated to maintain the confidentiality of the information.
+               <br><br>
+            4. Data Security:<br>
+               - We implement appropriate technical and organizational measures to protect personal information against unauthorized access, disclosure, alteration, or destruction.
+               <br><br>
+            5. User Rights:<br>
+               - Users have the right to access, correct, or delete their personal information held by us.<br>
+               - Requests can be made via our support email and will be addressed within a reasonable timeframe.
+               <br><br>
+            6. Policy Updates:<br>
+               - Our privacy policy may be updated from time to time. Users will be notified of any significant changes via email or through our website.<br>
+               <br><br><br>
+               
+            Contact Us:<br>
+            If you have any queries, concerns, or need assistance, please contact us:<br>
+             
+- WhatsApp: +91-9880305671<br>
+            - Email: Code-Library@outlook.com
+            <br><br>
+            Sincerely,  <br>
+            Code Library Team
+        </p>
+
+        <div class="button-box">
+            <button type="submit" value="Submit" class="button1" onclick="closePolicyForm()">I AGREE</button>
+        </div>
+    </form>
+</div>
+
+<!--========== SCROLL REVEAL ==========-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<!--========== MAIN JS ==========-->
+<script src="assets/js/index.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/currency.js"></script>
+    </body>
+</html>
+    
