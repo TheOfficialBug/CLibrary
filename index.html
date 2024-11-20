@@ -23,6 +23,40 @@
             href="assets/img/yellow_CLib_Logo.png"
             type="image/x-icon"
         />
+        <style>
+            /* Container for the button */
+            .more-container {
+                text-align: center;
+                margin: 20px 0;
+            }
+        
+            /* Styling the More button */
+            .more-btn {
+                background-color: #007BFF; /* Primary blue color */
+                color: white;
+                padding: 10px 20px;
+                font-size: 16px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.2s ease;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+        
+            /* Hover and focus effects */
+            .more-btn:hover,
+            .more-btn:focus {
+                background-color: #0056b3; /* Darker blue on hover */
+                transform: scale(1.05); /* Slight zoom on hover */
+            }
+        
+            /* Active button effect */
+            .more-btn:active {
+                background-color: #003f7f;
+                transform: scale(0.95); /* Slight press-down effect */
+            }
+        </style>
+        
     </head>
     <body>
 
@@ -48,7 +82,7 @@
                         <li class="nav__item"><a href="pricingPlans.html" class="nav__link">Pricing</a></li>
                         <li class="nav__item"><a href="blogLanding.html" class="nav__link">Blogs</a></li>
                         <!-- <li class="nav__item"><a href="https://calendar.google.com" class="nav__link" target="_blank" onclick="openGoogleCalendar()">My Calendar</a></li> -->
-                        <li class="nav__item"><a href="">About us</a></li>
+                        <li class="nav__item"><a href="https://calendar.google.com" class="nav__link" target="_blank">My Calendar</a></li>
                         <li class="nav__item"><a href="#" class="nav__link" onclick="openForm()">Register Now</a></li>
 
                         <li><i class='bx bx-moon change-theme' id="theme-button" onclick="toggleImage()"></i></li>
@@ -297,59 +331,67 @@
                         </a>
                     </div> -->
 
-                    <div class="menu__content" data-name="GRADE - 1" data-detail="Basic literacy, numeracy">
-                        <img src="assets/img/1.png" alt="" class="menu__img">
-                        <h3 class="menu__name">GRADE - 1</h3>
-                        <span class="menu__detail">Basic literacy, numeracy</span>
-                        <a href="#" class="button menu__button1" onclick="openGrade1()">
-                            <i class='bx bx-file-blank'></i>
-                        </a>
-                        <a href="#" class="button menu__button add-to-cart">
-                            <i class='bx bx-cart-alt'></i>
-                        </a>
-                    </div>
+<!-- Grade 1 -->
+<div class="menu__content" data-name="GRADE - 1" data-detail="Basic literacy, numeracy" data-price="$250">
+    <a href="https://drive.google.com/file/d/1TL_aC9qwDF6dt1QMRrigHetEgPd2cChi/view?usp=sharing">
+        <img src="assets/img/1.png" alt="Grade 1" class="menu__img">
+    </a>
+    <h3 class="menu__name">GRADE - 1</h3>
+    <span class="menu__detail">Basic literacy, numeracy</span>
+    <a href="https://drive.google.com/file/d/1TL_aC9qwDF6dt1QMRrigHetEgPd2cChi/view?usp=sharing" class="button menu__button1">
+        <i class='bx bx-file-blank'></i>
+    </a>
+    <a href="#" class="button menu__button add-to-cart">
+        <i class='bx bx-cart-alt'></i>
+    </a>
+</div>
 
-                    <div class="menu__content" data-name="GRADE - 2" data-detail="Reading, simple math">
-                        <img src="assets/img/2.png" alt="" class="menu__img">
-                        <h3 class="menu__name">GRADE - 2</h3>
-                        <span class="menu__detail">Reading, simple math</span>
-                        <!-- <span class="menu__preci">Check Out</span> -->
-                        <a href="#" class="button menu__button1" onclick="openGrade2()">
-                            <i class='bx bx-file-blank'></i>
-                        </a>
-                        <a href="#" class="button menu__button add-to-cart">
-                            <i class='bx bx-cart-alt'></i>
-                        </a>
-                    </div>
+<!-- Grade 2 -->
+<div class="menu__content" data-name="GRADE - 2" data-detail="Reading, simple math" data-price="$250">
+   <a href="https://drive.google.com/file/d/1akNZkok03bZfp23x9feMHHB9omMxjJ2q/view?usp=sharing"><img src="assets/img/2.png" alt="Grade 2" class="menu__img"></a>
+    <h3 class="menu__name">GRADE - 2</h3>
+    <span class="menu__detail">Reading, simple math</span>
+    <a href="https://drive.google.com/file/d/1akNZkok03bZfp23x9feMHHB9omMxjJ2q/view?usp=sharing" class="button menu__button1">
+        <i class='bx bx-file-blank'></i>
+    </a>
+    <a href="#" class="button menu__button add-to-cart">
+        <i class='bx bx-cart-alt'></i>
+    </a>
+</div>
 
-                    <div class="menu__content" data-name="GRADE - 3" data-detail="Science introduction, expanded reading">
-                        <img src="assets/img/3.png" alt="" class="menu__img">
-                        <h3 class="menu__name">GRADE - 3</h3>
-                        <span class="menu__detail">Science introduction, expanded reading</span>
-                        <!-- <span class="menu__preci">Check Out</span> -->
-                        <a href="#" class="button menu__button1" onclick="openGrade3()">
-                            <i class='bx bx-file-blank'></i>
-                        </a>
-                        <a href="#" class="button menu__button add-to-cart">
-                            <i class='bx bx-cart-alt'></i>
-                        </a>
-                    </div>
-
-                    <div class="menu__content" data-name="GRADE - 4" data-detail="Multiplication, grammar basics">
-                        <img src="assets/img/4.png" alt="" class="menu__img">
-                        <h3 class="menu__name">GRADE - 4</h3>
-                        <span class="menu__detail">Multiplication, grammar basics</span>
-                        <!-- <span class="menu__preci">Check Out</span> -->
-                        <a href="#" class="button menu__button1" onclick="openGrade4()">
-                            <i class='bx bx-file-blank'></i>
-                        </a>
-                        <a href="#" class="button menu__button add-to-cart">
-                            <i class='bx bx-cart-alt'></i>
-                        </a>
-                    </div>
+<!-- Grade 3 -->
+<div class="menu__content" data-name="GRADE - 3" data-detail="Science introduction, expanded reading">
+    <a href="https://drive.google.com/file/d/1rlEemEvDUQPn13s7lhXYIzbA42EEW8-4/view?usp=sharing"><img src="assets/img/3.png" alt="Grade 3" class="menu__img"></a>
+    <h3 class="menu__name">GRADE - 3</h3>
+    <span class="menu__detail">Science introduction, expanded reading</span>
+    <a href="https://drive.google.com/file/d/1rlEemEvDUQPn13s7lhXYIzbA42EEW8-4/view?usp=sharing" class="button menu__button1">
+        <i class='bx bx-file-blank'></i>
+    </a>
+    <a href="#" class="button menu__button add-to-cart">
+        <i class='bx bx-cart-alt'></i>
+    </a>
+</div>
+    <!-- Grade 4 -->
+    <div class="menu__content" data-name="GRADE - 4" data-detail="Multiplication, grammar basics">
+        <a href="https://drive.google.com/file/d/1LSAAmnqNwhsupmkrqgUo_rDNC-6o1Wgq/view?usp=sharing"><img src="assets/img/4.png" alt="Grade 4" class="menu__img"></a>
+        <h3 class="menu__name">GRADE - 4</h3>
+        <span class="menu__detail">Multiplication, grammar basics</span>
+        <a href="https://drive.google.com/file/d/1LSAAmnqNwhsupmkrqgUo_rDNC-6o1Wgq/view?usp=sharing" class="button menu__button1">
+            <i class='bx bx-file-blank'></i>
+        </a>
+        <a href="#" class="button menu__button add-to-cart">
+            <i class='bx bx-cart-alt'></i>
+        </a>
+    </div>
     
                 </div>
             </section>
+
+            <div class="more-container">
+                <a href="courses.html"><button class="more-btn" onclick="showMore()">More</button></a>
+            </div>
+
+            
 
             <!--========== CONTACT US ==========-->
             <section class="contact section bd-container" id="contact">
