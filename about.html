@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Code Library - Python & Math Courses for Kids (Grades 1-10) | Online Learning</title>
+
+        <meta name="description" content="Code Library offers online Python and Math courses for kids from Grades 1 to 10. Enroll now for personalized learning with top mentors.">
+        <meta name="keywords" content="Code Library, online courses for kids, Python programming, Math courses, Grades 1-10, personalized learning">
+        <meta name="robots" content="index, follow">
+
+        <link rel="canonical" href="https://codelibrary-edu.com/index.html">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/pricing.css">
+
+        <link
+            rel="icon"
+            href="assets/img/yellow_CLib_Logo.png"
+            type="image/x-icon"
+        />
+
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="index.html" class="nav__logo"><img src="assets/img/yellow_CLib_Logo.png" alt="logo" class="nav-logo" id="logo-image"><h2>.LIBRARY</h2></a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item dropdown">
+                            <span  class="nav__link" onclick="dropDown(event)">Courses<i class='bx bx-chevron-down'></i></span>
+                            <div class="dropdown-content">
+                                <a href="courses.html">Mathematics</a>
+                                <a href="programming.html">Programming</a>
+                            </div>
+                        </li>
+                        <li class="nav__item"><a href="pricingPlans.html" class="nav__link">Pricing</a></li>
+                        <li class="nav__item"><a href="blogLanding.html" class="nav__link active-link">Blogs</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link" target="_blank">About Us</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link" onclick="openForm()">Register Now</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button" onclick="toggleImage()"></i></li>
+                        
+                        <!-- NEW 1 -->
+                        <li class="nav__item icon-cart">
+                            <a href="#" class="nav__link"><i class='bx bxs-cart cart-icon'></i>
+                                <span id="product-count">0</span>
+                            </a>
+                        </li>
+                        <!-- END OF NEW 1 -->
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+<!-- NEW 2 -->
+        <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart">
+                <ul id="cart-list">
+
+                </ul>
+            </div>
+            <div class="btn">
+                <button class="close">CLOSE</button>
+                <button class="checkOut">CHECK OUT</button>
+            </div>
+        </div>
+<!-- END OF NEW 2 -->
+        <div class="overlay" id="overlay"></div>
+
+            <div class="form-container" id="formContainer">
+                <span class="close-btn" onclick="closeForm()"><i class='bx bx-x' ></i></span>
+                <form id="myForm" action="https://formspree.io/f/xkndpvak" method="post">
+                    <label for="parentName">Parent Name:</label>
+                    <input type="text" id="parentName" name="parentName" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            
+                    <label for="studentName">Student Name:</label>
+                    <input type="text" id="studentName" name="studentName" required>
+            
+                    <label for="interestedCourse">Interested Course:</label>
+                    <select id="interestedCourse" name="interestedCourse" required>
+                        <option value="None" selected></option>
+                        <option value="Mathematics">Mathematics</option>
+                        <option value="Science">Science</option>
+                        <option value="History">Biology</option>
+                        <option value="Language">Python Programming</option>
+                    </select>
+            
+                    <label for="studentGrade">Student Grade:</label>
+                    <input type="text" id="studentGrade" name="studentGrade" required>
+            
+                    <div class="button-box">
+                        <button type="submit" value="Submit" class="button1">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+        <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart">
+                <ul id="cart-list">
+
+                </ul>
+            </div>
+            <div class="btn">
+                <button class="close">CLOSE</button>
+                <button class="checkOut">CHECK OUT</button>
+            </div>
+        </div>
+<!-- =========END OF HEADER========== -->
 
