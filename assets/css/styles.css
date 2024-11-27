@@ -670,7 +670,7 @@ i.bx.bx-x::before{
 
 .home__title{
   font-size: var(--biggest-font-size);
-  color: var(--first-color);
+  color: beige;
   /* color: rgba(255, 255, 255, 0); */
   /* margin-top: var(--mb-8); */
   margin-bottom: var(--mb-1);
