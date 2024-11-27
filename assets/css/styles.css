@@ -698,8 +698,6 @@ i.bx.bx-x::before{
 
 .home{
   background-color: transparent;
-  width: 900;
-  height: 600;
   background-image: url("https://i.ibb.co/0BssGnB/new-design.png");
   /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Cpath d='M0 69L22.8 78.2C45.7 87.3 91.3 105.7 137 108.5C182.7 111.3 228.3 98.7 274 104.8C319.7 111 365.3 136 411.2 148.7C457 161.3 503 161.7 548.8 144.3C594.7 127 640.3 92 686 102.3C731.7 112.7 777.3 168.3 823 206.8C868.7 245.3 914.3 266.7 937.2 277.3L960 288L960 0L937.2 0C914.3 0 868.7 0 823 0C777.3 0 731.706860C640.30594.70548.8 0C503 0 457 0 411.2 0C365.30319.702740C228.30182.701370C91.3 0 45.7 0 22.8 0L0 0Z' fill='%230066FF' stroke-linecap='round' stroke-linejoin='miter'%3E%3C/path%3E%3C/svg%3E"); */
   /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Cpath d='M0 381L22.8 379.5C45.7 378 91.3 375 137 324.2C182.7 273.3 228.3 174.7 274 136.2C319.7 97.7 365.3 119.3 411.2 153C457 186.7 503 232.3 548.8 282.8C594.7 333.3 640.3 388.7 686 417.2C731.7 445.7 777.3 447.3 823 447.3C868.7 447.3 914.3 445.7 937.2 444.8L960 444L960 0L937.2 0C914.3 0 868.7 0 823 0C777.30731.706860C640.30594.70548.8 0C503 0 457 0 411.2 0C365.30319.702740C228.30182.701370C91.3 0 45.7 0 22.8 0L0 0Z' fill='%230066FF' stroke-linecap='round' stroke-linejoin='miter'%3E%3C/path%3E%3C/svg%3E"); */
