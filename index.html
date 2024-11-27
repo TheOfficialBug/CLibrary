@@ -171,38 +171,174 @@
             </div>
 
             <!-- home section -->
-            <section class="home" id="home">
+            
+                <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
-                    <div class="home__data">
+                    <div class="home__data"><br><br><br><br><br><br><br><br>
                         <h1 class="home__title">Personalized Program<br> for Students</h1>
-                        <h2 class="home__subtitle">Try the best courses <br>for a month</h2>
-                        <a href="#about" class="button">Check Out →</a>
+                        <h2 class="home__subtitle">Try out our free <br>demo session </h2>
+                        <a href="#"  class="button" onclick="openForm()">Book Now</a>
                     </div>
     
-                    <img src="assets/img/heroimg.jpg" alt="" class="home__img">
-                    <!-- <img src="assets/img/heroimg1.jpg" alt="" class="home__img"> -->
-                    <!-- <img src="assets/img/heroimg2.jpg" alt="" class="home__img"> -->
+                    
+                    <style>
 
+        
+
+                        /* Form Container */
+            
+            .form-container {
+            
+                background-color: #f5d442;
+            
+                padding: 1rem;
+            
+                border-radius: 10px;
+            
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            
+                max-width: 350px;
+            
+                width: 100%;
+            
+            }
+            
+            
+            
+            .form label {
+            
+                display: block;
+            
+                margin-bottom: 0.5rem;
+            
+                font-weight: bold;
+            
+            }
+            
+            
+            
+            .form input {
+            
+                width: 100%;
+            
+                padding: 0.2rem;
+            
+                margin-bottom: 1rem;
+            
+                border: none;
+            
+                border-radius: 5px;
+            
+                font-size: 1rem;
+            
+            }
+            
+            
+            
+            .submit-btn {
+            
+                width: 100%;
+            
+                padding: 0.8rem;
+            
+                background-color: black;
+            
+                color: white;
+            
+                border: none;
+            
+                border-radius: 5px;
+            
+                font-size: 1rem;
+            
+                cursor: pointer;
+            
+            }
+            
+            
+            
+            .submit-btn:hover {
+            
+                background-color: #333;
+            
+            }
+            
+                    
+            
+                </style>
+            
+            
+            
+            <div class="home__data">
+                
+            
+                <form action="https://formspree.io/f/mpzvbbrn" method="post" class="form">
+            
+                    <label for="name" style="color: white;">Name:</label>
+            
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+            
+            
+                    <label for="phone" style="color: white;">Phone Number:</label>
+            
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            
+            
+            
+                    <label for="email" style="color: white;">Email:</label>
+            
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            
+            
+                    <label for="grade" style="color: white;">Grade:</label>
+            
+                    <input type="text" id="grade" name="grade" placeholder="Enter your grade" required>
+            
+            
+            
+                    <label for="course" style="color: white;">Course:</label>
+            
+                    <input type="text" id="course" name="course" placeholder="Enter your course" required>
+            
+            
+            
+                    <button type="submit" class="submit-btn" value="Submit" onclick="reset_form()"><strong>SUBMIT</strong></button>
+            
+                </form>
+            
+                <!-- <a href="#" class="button">Contact Us Now</a> -->
+            
+            </div>
+            
 
 
                 </div>
             </section>
+            <script>
+                function reset_form() {
+                    // Select the form by its ID
+                    const form = document.getElementById("myForm");
+                    // Reset all fields within the form
+                    form.reset();
+                }
+            </script>
             
             <!--========== ABOUT ==========-->
             <section class="about section bd-container" id="about">
                 <div class="about__container  bd-grid">
                     <div class="about__data">
-                        <span class="section-subtitle about__initial">About us</span>
+                        <span class="section-subtitle about__initial" style="color: rgb(85, 22, 85);">About us</span>
                         <h2 class="section-title about__initial">We create the best <br> courses for students</h2>
                         <p class="about__description">Our courses encourage students to think outside the box and explore innovative solutions to real-world problems. By embracing creativity and experimentation, students develop the confidence to tackle complex challenges.</p>
-                        <a href="#menu" class="button">See More About Us →</a>
+                        <a href="#menu" class="button11" >See More About Us →</a>
                     </div>
 
                     <!-- <img src="assets/img/stem.png" alt="" class="about__img"> -->
-                    <img src="assets/img/4119036.jpg" alt="" class="about__img">
+                    <img src="C:\Users\kiran\OneDrive\Desktop\front2.png" alt="" class="about__img">
                 </div>
             </section>
-
             <!--========== SERVICES ==========-->
             <section class="services section bd-container" id="services">
                 <span class="section-subtitle">Check Out</span>
